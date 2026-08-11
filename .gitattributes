@@ -1,0 +1,11 @@
+# Keep scripts and documentation readable across Windows and Unix checkouts.
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.manifest text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# The self-contained launcher is a binary release artifact.
+*.exe binary
